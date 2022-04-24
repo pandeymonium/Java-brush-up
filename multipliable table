@@ -1,0 +1,21 @@
+import java.lang.*;
+import java.util.Scanner;
+
+class Main
+{
+    public static void main(String args[])
+    {
+        int a,i,c=0,d;
+        System.out.println("Enter a number to see its table : ");
+        Scanner sc= new Scanner(System.in);
+        a = sc.nextInt();
+        System.out.println("Till how much: ");
+        d = sc.nextInt();
+
+        for(i=1;i<=d;i++)
+        {
+            c = a*i;
+            System.out.println(a+" x "+i+" = "+c);
+        }
+    }
+}
